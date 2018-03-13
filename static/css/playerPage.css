@@ -1,0 +1,110 @@
+#characterInfo{
+    position: absolute;
+    left: 300px;
+    top: -5px;
+}
+
+#characterAttr{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+
+}
+
+#characterInfo h3,
+#characterAttr h3{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+#characterAttr p,
+#characterInfo p {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+
+   position: relative;
+    top: -1px;
+}
+#spells{
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    max-width: 20%;
+}
+#characterEquip{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    max-width: 20%;
+}
+#weapons{
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    max-width: 20%;
+
+}
+#equipment{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    max-width: 20%;
+
+}
+#tools{
+    float: right;
+    margin-top: 20px;
+}
+#characterProf{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    max-width: 20%;
+}
+
+#notes{
+    position: absolute;
+    left: 45%;
+    top: 70%;
+}
+#weaponRight{
+     position: absolute;
+     top: 100%;
+ }
+#weaponLeft{
+    position: absolute;
+    top: 120%;
+}
+#armour {
+    position: absolute;
+    top: 140%;
+}
+
+#updateStats{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+button {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+body {
+    background-image: url("../paper.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a{
+    color: #7c171f;
+}
+
+p, h1, h2, h3, button, input, a, select{
+    font-family: "Bookman Old Style";
+}
+

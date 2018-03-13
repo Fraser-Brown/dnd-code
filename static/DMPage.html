@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DM Page</title>
+    <link rel="stylesheet" href="css/dmPage.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<h2>Dungeon Master Page</h2>
+<div id="startup">
+<input type="text" id="username"></input>
+<button type="button" onclick="joinSession()">Join session</button>
+</div>
+<div id="dmScreen">
+<div id="manager"></div>
+<ul id="enemies"></ul>
+</div>
+</body>
+<script>
+    $(function(){DMClient.init()})
+</script>
+</html>
+<script src="js/DMClient.js"></script>
+<script src="js/allSpells.js"></script>
+<script src="js/allItems.js"></script>
+<script src="js/shared.js"></script>

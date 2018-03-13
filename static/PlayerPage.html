@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Player Page</title>
+    <link rel="stylesheet" href="css/playerPage.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<h2>Player Page</h2>
+<br/>
+<a href="Player%20handbook.pdf">Player Handbook Link</a>
+<br/>
+<a href="houseRules.html">House Rules</a>
+<br/>
+<br/>
+<div id="startDiv">
+<button id="characterButton" onclick="createForm()">Create new Character</button>
+    <br/>
+<input type="text" id="existingName">
+<button id="retrieveCharacter" onclick="retrieveCharacter()">Retrieve Existing Character</button>
+</div>
+<div class = 'creator'></div>
+<div class = 'info'></div>
+<div class = 'encounter'></div>
+</body>
+<script>
+    $(function(){UserClient.init()})
+</script>
+</html>
+<script src="js/playerClient.js"></script>
+<script src="js/allSpells.js"></script>
+<script src="js/allItems.js"></script>
+<script src="js/shared.js"></script>
+<script src="js/characterCreation.js"></script>

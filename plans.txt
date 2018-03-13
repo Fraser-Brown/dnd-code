@@ -1,0 +1,27 @@
+dnd ideas
+
+-private messages ie whispers
+-turn based combat
+-format to create spells
+-modifiers- very important
+-generate encounters of all kinds - combat, trading, interactions
+-good if loot is auto generated at random - categories, value ect.
+
+
+also return the severities and stuff to the dm for story telling
+
+everything always needs to report info to the dm and the players if appropriate
+
+the server needs to store a list of all items, weapons, spells and such, so that once one is made it can be easily used again later,
+this would help with the auto generated loot as you could just add them all at once
+
+saving each character as a file would be good, have the dm have one and the player another, so people could join others games
+then the game state could also be saved and given out, so items can be created and shared
+
+make a help guide to using the site, should be generally accessible
+
+limit the number of items a store stocks
+
+add a looting feature and make it whoever gets it first gets the loot
+
+have buttons for saving throws

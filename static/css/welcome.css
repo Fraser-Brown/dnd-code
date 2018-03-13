@@ -1,0 +1,14 @@
+body {
+    background-image: url("../paper.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a{
+    color: #7c171f;
+}
+
+p, h1, h2, h3, button, input, a, select{
+    font-family: "Bookman Old Style";
+}
