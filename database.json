@@ -1,0 +1,533 @@
+{
+    "spells":{
+        "barbarian":{
+            "default":{
+                "rage" : {"name" : "Rage", "cost": 1},
+                "unarmouredDefense" : {"name" : "Unarmoured defense"}
+            }
+        },
+
+        "bard":{
+            "default": {
+                "bardicInspiration" : {"name" : "Bardic inspiration", "dice": 6}
+            },
+            "cantrips": {
+                "bladeWard" : {"name" : "Blade ward" , "level" : 0},
+                "dancingLights" : {"name" : "Dancing lights" , "level" : 0},
+                "friends" : {"name" : "Friends" , "level" : 0},
+                "light" : {"name" : "Light" , "level" : 0},
+                "mageHand" : {"name" : "Mage hand" , "level" : 0},
+                "mending" : {"name" : "Mending" , "level" : 0},
+                "message" : {"name" : "Message" , "level" : 0},
+                "minorIllusion" : {"name" : "Minor illusion" , "level" : 0},
+                "prestidigitation" : {"name" : "Prestidigitation" , "level" : 0},
+                "trueStrike" : {"name" : "True strike" , "level" : 0},
+                "viciousMockery" : {"name" : "Vicious mockery" , "level" : 0}
+            },
+            "levelOne": {
+                "animalFriendship" : {"name" : "Animal friendship" , "level" : 1},
+                "bane" : {"name" : "Bane" , "level" : 1},
+                "charmPerson" : {"name" : "Charm person" , "level" : 1},
+                "comprehendLanguages" : {"name" : "Comprehend languages" , "level" : 1},
+                "cureWounds" : {"name" : "Cure wounds" , "level" : 1},
+                "detectMagic" : {"name" : "Detect magic" , "level" : 1},
+                "disguiseSelf" : {"name" : "Disguise self" , "level" : 1},
+                "dissonantWhispers" : {"name" : "Dissonant whispers" , "level" : 1},
+                "faerieFire" : {"name" : "Faerie fire" , "level" : 1},
+                "featherFall" : {"name" : "Feather fall" , "level" : 1},
+                "healingWord" : {"name" : "Healing word" , "level" : 1},
+                "heroism" : {"name" : "Heroism" , "level" : 1},
+                "identify" : {"name" : "Identify" , "level" : 1},
+                "illusoryScript" : {"name" : "Illusory script" , "level" : 1},
+                "longstrider" : {"name" : "Longstrider" , "level" : 1},
+                "silentImage" : {"name" : "Silent image" , "level" : 1},
+                "sleep" : {"name" : "Sleep" , "level" : 1},
+                "speakWithAnimals" : {"name" : "Speak with animals" , "level" : 1},
+                "tashasHideousLaughter" : {"name" : "Tashas hideous laughter" , "level" : 1},
+                "thunderwave" : {"name" : "Thunderwave" , "level" : 1},
+                "unseenServant" : {"name" : "Unseen servant" , "level" : 1}
+
+            }
+        },
+        
+        "cleric":{
+                "default": {
+
+                },
+                "cantrips": {
+                    "guidance" : {"name" : "Guidance" , "level" : 0},
+                    "light" : {"name" : "Light" , "level" : 0, "domain" : "light"},
+                    "mending" : {"name" : "Mending" , "level" : 0},
+                    "resistance" : {"name" : "Resistance" , "level" : 0},
+                    "sacredFlame" : {"name" : "Sacred flame" , "level" : 0},
+                    "spareTheDying" : {"name" : "Spare the dying" , "level" : 0},
+                    "thaumaturgy" : {"name" : "Thaumaturgy" , "level" : 0}
+                },
+
+                "levelOne": {
+                    "bane" : {"name" : "Bane" , "level" : 1},
+                    "bless" : {"name" : "Bless" , "level" : 1, "domain" : "life"},
+                    "command" : {"name" : "Command" , "level" : 1, "domain" : "knowledge"},
+                    "createOrDestroyWater" : {"name" : "Create or destroy water" , "level" : 1},
+                    "cureWounds" : {"name" : "Cure wounds" , "level" : 1, "domain" : "life"},
+                    "detectEvilAndGood" : {"name" : "Detect evil and good" , "level" : 1},
+                    "detectMagic" : {"name" : "Detect magic" , "level" : 1},
+                    "detectPoisonAndDisease" : {"name" : "Detect poison and disease" , "level" : 1},
+                    "guidingBolt" : {"name" : "Guiding bolt" , "level" : 1},
+                    "healingWord" : {"name" : "Healing word" , "level" : 1},
+                    "inflictWounds" : {"name" : "Inflict wounds" , "level" : 1},
+                    "protectionFrom" : {"name" : "Protection from" , "level" : 1},
+                    "evilAndGood" : {"name" : "Evil and good" , "level" : 1},
+                    "purifyFoodAndDrink" : {"name" : "Purify food and drink" , "level" : 1},
+                    "sanctuary" : {"name" : "Sanctuary" , "level" : 1},
+                    "shieldOfFaith" : {"name" : "Shield of faith" , "level" : 1, "domain" : "war"},
+                    "identify" : {"name" : "Identify" , "level" : 1, "domain" : "knowledge"},
+                    "burningHands" : {"name" : "Burning hands" , "level" : 1, "domain" : "light"},
+                    "faerieFire" : {"name" : "Faerie fire" , "level" : 1, "domain" : "light"},
+                    "animalFriendship" : {"name" : "Animal friendship" , "level" : 1, "domain" : "nature"},
+                    "speakWithAnimals" : {"name" : "Speak with animals" , "level" : 1, "domain" : "nature"},
+                    "fogCloud" : {"name" : "Fog cloud" , "level" : 1, "domain" : "tempest"},
+                    "thunderWave" : {"name" : "Thunder wave" , "level" : 1, "domain" : "tempest"},
+                    "charmPerson" : {"name" : "Charm person" , "level" : 1, "domain" : "trickery"},
+                    "disguiseSelf" : {"name" : "Disguise self" , "level" : 1, "domain" : "trickery"},
+                    "divineFavour" : {"name" : "Divine favour" , "level" : 1, "domain" : "war"}
+                },
+
+                "domains": ["knowledge", "life", "light", "nature", "tempest", "trickery", "war"]
+        },
+
+        "druid":{
+            "default":{
+                "druidic" : {"name" : "Druidic", "detail":"lets you leave secret messages"}
+            },
+            "cantrips": {
+                "druidcraft" : {"name" : "Druidcraft" , "level" : 0},
+                "guidance" : {"name" : "Guidance" , "level" : 0},
+                "mending" : {"name" : "Mending" , "level" : 0},
+                "poisonSpray" : {"name" : "Poison spray" , "level" : 0},
+                "produceFlame" : {"name" : "Produce flame" , "level" : 0},
+                "resistance" : {"name" : "Resistance" , "level" : 0},
+                "shillelagh" : {"name" : "Shillelagh" , "level" : 0},
+                "thornWhip" : {"name" : "Thorn whip" , "level" : 0}
+            },
+            "levelOne":{
+                "animalFriendship" : {"name" : "Animal friendship" , "level" : 1},
+                "charmPerson" : {"name" : "Charm person" , "level" : 1},
+                "createOrDestroyWater" : {"name" : "Create or destroy water" , "level" : 1},
+                "cureWounds" : {"name" : "Cure wounds" , "level" : 1},
+                "detectMagic" : {"name" : "Detect magic" , "level" : 1},
+                "detectPoisonAndDisease" : {"name" : "Detect poison and disease" , "level" : 1},
+                "entangle" : {"name" : "Entangle" , "level" : 1},
+                "faerieFire" : {"name" : "Faerie fire" , "level" : 1},
+                "fogCloud" : {"name" : "Fog cloud" , "level" : 1},
+                "goodberry" : {"name" : "Goodberry" , "level" : 1},
+                "healingWord" : {"name" : "Healing word" , "level" : 1},
+                "jump" : {"name" : "Jump" , "level" : 1},
+                "longstrider" : {"name" : "Longstrider" , "level" : 1},
+                "purifyFoodAndDrink" : {"name" : "Purify food and drink" , "level" : 1},
+                "speakWithAnimals" : {"name" : "Speak with animals" , "level" : 1},
+                "thunderwave" : {"name" : "Thunderwave" , "level" : 1}
+            }
+        },
+
+        "fighter":{
+            "default": {
+                "fightingStyle" : {"name" : "Fighting style"},
+                "secondWind": {"name" : "Second wind"}
+            },
+            "domains": ["archery", "defense", "dueling", "greatWeaponFighting", "protection", "twoWeaponFighting"]
+        },
+
+        "monk":{
+        "default": {
+            "unarmouredDefense" : {"name" : "Unarmoured defense"},
+            "martialArts" : {"name" : "Martial arts"}
+            
+            
+        }
+        },
+
+        "paladin":{
+            "default": {
+                "divineSense" : {"name" : "Divine sense"},
+                "layOnHands" : {"name" : "Lay on hands"}
+            },
+            "cantrips": {
+
+            },
+            "levelOne":{
+                "bless" : {"name" : "Bless" , "level" : 1},
+                "command" : {"name" : "Command" , "level" : 1},
+                "compelledDuel" : {"name" : "Compelled duel" , "level" : 1},
+                "cureWounds" : {"name" : "Cure wounds" , "level" : 1},
+                "detectEvilAndGood" : {"name" : "Detect evil and good" , "level" : 1},
+                "detectMagic" : {"name" : "Detect magic" , "level" : 1},
+                "detectPoisonAndDisease" : {"name" : "Detect poison and disease" , "level" : 1},
+                "divineFavor" : {"name" : "Divine favor" , "level" : 1},
+                "heroism" : {"name" : "Heroism" , "level" : 1},
+                "protectionFromEvilAndGood" : {"name" : "Protection from evil and good" , "level" : 1},
+                "purifyFoodAndDrink" : {"name" : "Purify food and drink" , "level" : 1},
+                "searingSmite" : {"name" : "Searing smite" , "level" : 1},
+                "shieldOfFaith" : {"name" : "Shield of faith" , "level" : 1},
+                "thunderousSmite" : {"name" : "Thunderous smite" , "level" : 1},
+                "wrathfulSmite" : {"name" : "Wrathful smite" , "level" : 1}
+            }
+        },
+
+        "ranger":{
+            "default": {
+                "favouredEnemy" : {"name" : "Favoured enemy"}, 
+                "naturalExplorer" : {"name" : "Natural explorer"} 
+            },
+            "cantrips": {
+
+            },
+            "levelOne":{
+                "alarm" : {"name" : "Alarm" , "level" : 1},
+                "animalFriendship" : {"name" : "Animal friendship" , "level" : 1},
+                "cureWounds" : {"name" : "Cure wounds" , "level" : 1},
+                "detectMagic" : {"name" : "Detect magic" , "level" : 1},
+                "detectPoisonAndDisease" : {"name" : "Detect poison and disease" , "level" : 1},
+                "ensnaringStrike" : {"name" : "Ensnaring strike" , "level" : 1},
+                "fogCloud" : {"name" : "Fog cloud" , "level" : 1},
+                "goodberry" : {"name" : "Goodberry" , "level" : 1},
+                "hailOfThorns" : {"name" : "Hail of thorns" , "level" : 1},
+                "huntersMark" : {"name" : "Hunters mark" , "level" : 1},
+                "jump" : {"name" : "Jump" , "level" : 1},
+                "longstrider" : {"name" : "Longstrider" , "level" : 1},
+                "speakWithAnimals" : {"name" : "Speak with animals" , "level" : 1}
+            },
+            "domains": ["aberrations", "beasts", "celestials", "constructs", "dragons", "elementals", "fey",
+                "fiends", "giants", "monstrosities", "oozes", "plants", "undead", "humanoid"]
+        },
+
+        "rogue":{
+        "default": {
+            "expertise": {"name" : "Expertise"},
+            "sneakAttack" : {"name" : "Sneak attack"},
+            "thievesCant" : {"name" : "Thieves cant"}
+        }
+        },
+
+        "sorcerer":{
+            "default": {
+                "sorcerousOrigin" : {"name" : "Sorcerous origin"} 
+            },
+            "cantrips": {
+                "acidSplash" : {"name" : "Acid splash" , "level" : 0},
+                "bladeWard" : {"name" : "Blade ward" , "level" : 0},
+                "chillTouch" : {"name" : "Chill touch" , "level" : 0},
+                "dancingLights" : {"name" : "Dancing lights" , "level" : 0},
+                "fireBolt" : {"name" : "Fire bolt" , "level" : 0},
+                "friends" : {"name" : "Friends" , "level" : 0},
+                "light" : {"name" : "Light" , "level" : 0},
+                "mageHand" : {"name" : "Mage hand" , "level" : 0},
+                "mending" : {"name" : "Mending" , "level" : 0},
+                "message" : {"name" : "Message" , "level" : 0},
+                "minorIllusion" : {"name" : "Minor illusion" , "level" : 0},
+                "poisonSpray" : {"name" : "Poison spray" , "level" : 0},
+                "prestidigitation" : {"name" : "Prestidigitation" , "level" : 0},
+                "rayOfFrost" : {"name" : "Ray of frost" , "level" : 0},
+                "shockingGrasp" : {"name" : "Shocking grasp" , "level" : 0},
+                "trueStrike" : {"name" : "True strike" , "level" : 0}
+            },
+            "levelOne":{
+                "burningHands" : {"name" : "Burning hands" , "level" : 1},
+                "charmPerson" : {"name" : "Charm person" , "level" : 1},
+                "chromaticOrb" : {"name" : "Chromatic orb" , "level" : 1},
+                "colorSpray" : {"name" : "Color spray" , "level" : 1},
+                "comprehendLanguages" : {"name" : "Comprehend languages" , "level" : 1},
+                "detectMagic" : {"name" : "Detect magic" , "level" : 1},
+                "disguiseSelf" : {"name" : "Disguise self" , "level" : 1},
+                "expeditiousRetreat" : {"name" : "Expeditious retreat" , "level" : 1},
+                "falseLife" : {"name" : "False life" , "level" : 1},
+                "featherFall" : {"name" : "Feather fall" , "level" : 1},
+                "fogCloud" : {"name" : "Fog cloud" , "level" : 1},
+                "jump" : {"name" : "Jump" , "level" : 1},
+                "mageArmor" : {"name" : "Mage armor" , "level" : 1},
+                "magicMissile" : {"name" : "Magic missile" , "level" : 1},
+                "rayOfSickness" : {"name" : "Ray of sickness" , "level" : 1},
+                "shield" : {"name" : "Shield" , "level" : 1},
+                "silentImage" : {"name" : "Silent image" , "level" : 1},
+                "sleep" : {"name" : "Sleep" , "level" : 1},
+                "thunderwave" : {"name" : "Thunderwave" , "level" : 1},
+                "witchBolt" : {"name" : "Witch bolt" , "level" : 1}
+            },
+            "domains": ["dragonicBloodLine", "wildMagic"]
+        },
+
+        "warlock":{
+            "default": {
+            "otherworldlyPatron"  : {"name" : "Other worldy patron"}, 
+                "pactMagic" : {"name" : "Pact magic"}
+            },
+            "cantrips": {
+                "bladeWard" : {"name" : "Blade ward" , "level" : 0},
+                "chillTouch" : {"name" : "Chill touch" , "level" : 0},
+                "eldritchBlast" : {"name" : "Eldritch blast" , "level" : 0},
+                "friends" : {"name" : "Friends" , "level" :0},
+                "mageHand" : {"name" : "Mage hand" , "level" : 0},
+                "minorIllusion" : {"name" : "Minor illusion" , "level" : 0},
+                "poisonSpray" : {"name" : "Poison spray" , "level" : 0},
+                "prestidigitation" : {"name" : "Prestidigitation" , "level" : 0},
+                "trueStrike" : {"name" : "True strike" , "level" : 0}
+            }
+            ,
+            "levelOne":{
+                "armorOfAgathys" : {"name" : "Armor of agathys" , "level" : 1},
+                "armsOfHadar" : {"name" : "Arms of hadar" , "level" : 1},
+                "charmPerson" : {"name" : "Charm person" , "level" : 1},
+                "comprehendLanguages" : {"name" : "Comprehend languages" , "level" : 1},
+                "expeditiousRetreat" : {"name" : "Expeditious retreat" , "level" : 1},
+                "hellishRebuke" : {"name" : "Hellish rebuke" , "level" : 1},
+                "hex" : {"name" : "Hex" , "level" : 1},
+                "illusoryScript" : {"name" : "Illusory script" , "level" : 1},
+                "protectionFromEvilAndGood" : {"name" : "Protection from evil and good" , "level" : 1},
+                "unseenServant" : {"name" : "Unseen servant" , "level" : 1},
+                "witchBolt" : {"name" : "Witch bolt" , "level" : 1},
+                "faerieFire" : {"name" : "Faerie fire" , "level" : 1, "domain": "archery"},
+                "sleep" : {"name" : "Sleep" , "level" : 1, "domain": "archery"},
+                "burningHands" : {"name" : "Burning hands" , "level" : 1, "domain": "fiend"},
+                "command" : {"name" : "Command" , "level" : 1, "domain": "fiend"},
+                "dissonantWhisper" : {"name" : "Dissonant whisper" , "level" : 1, "domain": "greatOldOne"},
+                "tashasHideousLaughter" : {"name" : "Tashas hideous laughter" , "level" : 1, "domain": "greatOldOne"}
+            },
+            "domains": ["archery", "fiend", "greatOldOne"]
+        },
+
+        "wizard":{
+            "default":{
+                "arcaneRecovery" : {"name" : "Arcane recovery"}
+            },
+            "cantrips": {
+                "acidSplash" : {"name" : "Acid splash" , "level" : 0},
+                "bladeWard" : {"name" : "Blade ward" , "level" : 0},
+                "chillTouch" : {"name" : "Chill touch" , "level" : 0},
+                "dancingLights" : {"name" : "Dancing lights" , "level" : 0},
+                "fireBolt" : {"name" : "Fire bolt" , "level" : 0},
+                "friends" : {"name" : "Friends" , "level" : 0},
+                "light" : {"name" : "Light" , "level" : 0},
+                "mageHand" : {"name" : "Mage hand" , "level" : 0},
+                "mending" : {"name" : "Mending" , "level" : 0},
+                "message" : {"name" : "Message" , "level" : 0},
+                "minorIllusion" : {"name" : "Minor illusion" , "level" : 0},
+                "poisonSpray" : {"name" : "Poison spray" , "level" : 0},
+                "prestidigitation" : {"name" : "Prestidigitation" , "level" : 0},
+                "rayOfFrost" : {"name" : "Ray of frost" , "level" : 0},
+                "shockingGrasp" : {"name" : "Shocking grasp" , "level" : 0},
+                "trueStrike" : {"name" : "True strike" , "level" : 0}
+            },
+            "levelOne":{
+                "alarm" : {"name" : "Alarm" , "level" : 1},
+                "burningHands" : {"name" : "Burning hands" , "level" : 1},
+                "charmPerson" : {"name" : "Charm person" , "level" : 1},
+                "chromaticOrb" : {"name" : "Chromatic orb" , "level" : 1},
+                "colorSpray" : {"name" : "Color spray" , "level" : 1},
+                "comprehendLanguages" : {"name" : "Comprehend languages" , "level" : 1},
+                "detectMagic" : {"name" : "Detect magic" , "level" : 1},
+                "disguiseSelf" : {"name" : "Disguise self" , "level" : 1},
+                "expeditiousRetreat" : {"name" : "Expeditious retreat" , "level" : 1},
+                "falseLife" : {"name" : "False life" , "level" : 1},
+                "featherFall" : {"name" : "Feather fall" , "level" : 1},
+                "findFamiliar" : {"name" : "Find familiar" , "level" : 1},
+                "fogCloud" : {"name" : "Fog cloud" , "level" : 1},
+                "grease" : {"name" : "Grease" , "level" : 1},
+                "identify" : {"name" : "Identify" , "level" : 1},
+                "illusoryScript" : {"name" : "Illusory script" , "level" : 1},
+                "jump" : {"name" : "Jump" , "level" : 1},
+                "longstrider" : {"name" : "Longstrider" , "level" : 1},
+                "mageArmor" : {"name" : "Mage armor" , "level" : 1},
+                "magicMissile" : {"name" : "Magic missile" , "level" : 1},
+                "protectionFromEvilAndGood" : {"name" : "Protection from evil and good" , "level" : 1},
+                "rayOfSickness" : {"name" : "Ray of sickness" , "level" : 1},
+                "shield" : {"name" : "Shield" , "level" : 1},
+                "silentImage" : {"name" : "Silent image" , "level" : 1},
+                "sleep" : {"name" : "Sleep" , "level" : 1},
+                "tashasHideousLaughter" : {"name" : "Tasha’s Hideous Laughter" , "level" : 1},
+                "tensersFloatingDisk" : {"name" : "Tenser’s Floating Disk" , "level" : 1},
+                "thunderwave" : {"name" : "Thunderwave" , "level" : 1},
+                "unseenServant" : {"name" : "Unseen servant" , "level" : 1},
+                "witchBolt" : {"name" : "Witch bolt" , "level" : 1}
+            }
+        }
+    },
+
+    "items":{
+        "packs":{    
+            "explorers":{
+                "name":"Explorers pack",
+                "backpack":{"name":"Backpack", "quantity":1},
+                "bedroll":{"name":"Bedroll", "quantity":1},
+                "messKit":{"name":"Messkit", "quantity":1},
+                "tinderbox":{"name":"Tinderbox", "quantity":1},
+                "torches":{"name":"Torches", "quantity":10},
+                "dayOfRations":{"name":"Day of rations", "quantity":10},
+                "waterskin":{"name":"Waterskin", "quantity":1},
+                "oneFootOfHempenRope":{"name":"One foot of hempen rope", "quantity":50}
+            },
+
+            "burglars":{
+                "name":"Burglars pack",
+                "backpack":{"name":"Backpack", "quantity":1},
+                "ballbearings":{"name":"Ballbearings", "quantity":1000},
+                "footOfString":{"name":"Foot of string", "quantity":10},
+                "bell":{"name":"Bell", "quantity":1},
+                "candles":{"name":"Candles", "quantity":5},
+                "crowbar":{"name":"Crowbar", "quantity":1},
+                "hammer":{"name":"Hammer", "quantity":1},
+                "pitons":{"name":"Pitons", "quantity":10},
+                "hoodedLantern":{"name":"Hooded Lantern", "quantity":1},
+                "flaskOfOil":{"name":"Flasks of oil", "quantity":2},
+                "dayOfRations":{"name":"Day of rations", "quantity":5},
+                "tinderbox":{"name":"Tinderbox", "quantity":1},
+                "waterskin":{"name":"Waterskin", "quantity":1},
+                "oneFootOfHempenRope":{"name":"One foot of hempen rope", "quantity":50}
+
+            },
+
+            "diplomats":{
+                "name":"Diplomats pack",
+                "chest":{"name":"Chest", "quantity":1},
+                "casesForMapsAndScrolls":{"name":"Cases for maps and scrolls", "quantity":2},
+                "setOfFineClothes":{"name":"Set of fine clothes", "quantity":1},
+                "bottleOfInk":{"name":"Bottle of ink", "quantity":1},
+                "inkPen":{"name":"Ink pen", "quantity":1},
+                "lamp":{"name":"Lamp", "quantity":1},
+                "flaskOfOil":{"name":"Flasks of oil", "quantity":2},
+                "sheetOfPaper":{"name":"Sheet of paper", "quantity":5},
+                "vialOfPerfume":{"name":"Vial of perfume", "quantity":1},
+                "sealingWax":{"name":"Sealing wax", "quantity":1},
+                "soap":{"name":"Soap", "quantity":1}
+            },
+
+            "dungeoneers":{
+                "name":"Dungeoneers pack",
+                "backpack":{"name":"Backpack", "quantity":1},
+                "crowbar":{"name":"Crowbar", "quantity":1},
+                "hammer":{"name":"Hammer", "quantity":1},
+                "pitons":{"name":"Pitons", "quantity":10},
+                "1torches":{"name":"Torches", "quantity":10},
+                "tinderbox":{"name":"Tinderbox", "quantity":1},
+                "dayOfRations":{"name":"Day of rations", "quantity":10},
+                "waterskin":{"name":"Waterskin", "quantity":1},
+                "oneFootOfHempenRope":{"name":"One foot of hempen rope", "quantity":50}
+
+            },
+
+            "entertainers":{
+                "name":"Entertainers pack",
+
+                "backpack":{"name":"Backpack", "quantity":1},
+                "bedroll":{"name":"Bedroll", "quantity":1},
+                "costume":{"name":"Costume", "quantity":2},
+                "candle":{"name":"Candle", "quantity":5},
+                "dayOfRations":{"name":"Day of rations", "quantity":5},
+                "waterskin":{"name":"Waterskin", "quantity":1},
+                "disguiseKit":{"name":"Disguise kit", "quantity":1}
+            },
+
+            "priests":{
+                "name":"Priests pack",
+                "backpack":{"name":"Backpack", "quantity":1},
+                "blanket":{"name":"Blanket", "quantity":1},
+                "candle":{"name":"Candle", "quantity":10},
+                "tinderbox":{"name":"Tinderbox", "quantity":1},
+                "almsbox":{"name":"Almsbox", "quantity":1},
+                "blocksOfIncense":{"name":"Blocks of incense", "quantity":2},
+                "censer":{"name":"Censer", "quantity":1},
+                "vestments":{"name":"Vestments", "quantity":1},
+                "dayOfRations":{"name":"Day of rations", "quantity":2},
+                "waterskin":{"name":"Waterskin", "quantity":1}
+
+            },
+
+            "scholars":{
+                "name":"Scholars pack",
+                "backpack":{"name":"Backpack", "quantity":1},
+                "bookOfLore":{"name":"Book of lore", "quantity":1},
+                "bottleOfInk":{"name":"A bottle of ink", "quantity":1},
+                "inkPen":{"name":"Ink pen", "quantity":1},
+                "sheetsOfParchment":{"name":"Sheets of parchment", "quantity":10},
+                "littleBagOfSand":{"name":"Little bag of sand", "quantity":1},
+                "smallKnife":{"name":"Small knife", "quantity":1}
+
+            }
+        },
+
+        "weapons":{
+            "simple":{
+                "melee":{
+                    "club":{"name":"Club" ,"cost":{ "sp":"1"} ,"dmgDice":"1d4" ,"dmgType":"bludgeoning" ,"weight":2,"type":"simple" ,"properties":["Light"] },
+                    "dagger":{"name":"Dagger" ,"cost":{ "gp":"2"} ,"dmgDice":"1d4" ,"dmgType":"piercing" ,"weight":1,"type":"simple" ,"properties":["Finesse","light","thrown","(range","20/60)"] },
+                    "greatclub":{"name":"Greatclub" ,"cost":{ "sp":"2"} ,"dmgDice":"1d8" ,"dmgType":"bludgeoning" ,"weight":10,"type":"simple" ,"properties":["Two-handed"] },
+                    "handaxe":{"name":"Handaxe" ,"cost":{ "gp":"5"} ,"dmgDice":"1d6" ,"dmgType":"slashing" ,"weight":2,"type":"simple" ,"properties":["Light","thrown","(range","20/60)"] },
+                    "javelin":{"name":"Javelin" ,"cost":{ "sp":"5"} ,"dmgDice":"1d6" ,"dmgType":"piercing" ,"weight":2,"type":"simple" ,"properties":["Thrown","(range","30/120)"] },
+                    "lightHammer":{"name":"Light hammer" ,"cost":{ "gp":"2"} ,"dmgDice":"1d4" ,"dmgType":"bludgeoning" ,"weight":2,"type":"simple" ,"properties":["Light","thrown","(range","20/60)"] },
+                    "mace":{"name":"Mace" ,"cost":{ "gp":"5"} ,"dmgDice":"1d6" ,"dmgType":"bludgeoning" ,"weight":4,"type":"simple" ,"properties":["—"] },
+                    "quarterstaff":{"name":"Quarterstaff" ,"cost":{ "sp":"2"} ,"dmgDice":"1d6" ,"dmgType":"bludgeoning" ,"weight":4,"type":"simple" ,"properties":["Versatile","(1d8)"] },
+                    "sickle":{"name":"Sickle" ,"cost":{ "gp":"1"} ,"dmgDice":"1d4" ,"dmgType":"slashing" ,"weight":2,"type":"simple" ,"properties":["Light"] },
+                    "spear":{"name":"Spear" ,"cost":{ "gp":"1"} ,"dmgDice":"1d6" ,"dmgType":"piercing" ,"weight":3,"type":"simple" ,"properties":["Thrown","(range","20/60)","versatile","(1d8)"] }
+            },
+
+                "ranged":{
+                    "lightCrossbow":{"name":"Light crossbow" ,"cost":{ "gp":"25"} ,"dmgDice":"1d8" ,"dmgType":"piercing" ,"weight":5,"type":"simple" ,"properties":["Ammunition","(range","80/320)","loading","two-handed"] },
+                    "dart":{"name":"Dart" ,"cost":{ "cp":"5"} ,"dmgDice":"1d4" ,"dmgType":"piercing" ,"weight":0.25,"type":"simple" ,"properties":["Finesse","thrown","(range","20/60)"] },
+                    "shortbow":{"name":"Shortbow" ,"cost":{ "gp":"25"} ,"dmgDice":"1d6" ,"dmgType":"piercing" ,"weight":2,"type":"simple" ,"properties":["Ammunition","(range","80/320)","two-handed"] },
+                    "sling":{"name":"Sling" ,"cost":{ "sp":"1"} ,"dmgDice":"1d4" ,"dmgType":"bludgeoning" ,"weight":0,"type":"simple" ,"properties":["(range","30/120)"] }
+                }
+            },
+
+            "martial":{
+                "melee":{
+                    "battleaxe":{"name":"Battleaxe" ,"cost":{ "gp":"10"} ,"dmgDice":"1d8" ,"dmgType":"slashing" ,"weight":4,"type":"martial" ,"properties":["Versatile","(1d10)"] },
+                    "flail":{"name":"Flail" ,"cost":{ "gp":"10"} ,"dmgDice":"1d8" ,"dmgType":"bludgeoning" ,"weight":2,"type":"martial" ,"properties":["—"] },
+                    "glaive":{"name":"Glaive" ,"cost":{ "gp":"20"} ,"dmgDice":"1d10" ,"dmgType":"slashing" ,"weight":6,"type":"martial" ,"properties":["Heavy","reach","two-handed"] },
+                    "greataxe":{"name":"Greataxe" ,"cost":{ "gp":"30"} ,"dmgDice":"1d12" ,"dmgType":"slashing" ,"weight":7,"type":"martial" ,"properties":["Heavy","two-handed"] },
+                    "greatsword":{"name":"Greatsword" ,"cost":{ "gp":"50"} ,"dmgDice":"2d6" ,"dmgType":"slashing" ,"weight":6,"type":"martial" ,"properties":["Heavy","two-handed"] },
+                    "halberd":{"name":"Halberd" ,"cost":{ "gp":"20"} ,"dmgDice":"1d10" ,"dmgType":"slashing" ,"weight":6,"type":"martial" ,"properties":["Heavy","reach","two-handed"] },
+                    "lance":{"name":"Lance" ,"cost":{ "gp":"10"} ,"dmgDice":"1d12" ,"dmgType":"piercing" ,"weight":6,"type":"martial" ,"properties":["Reach","special"] },
+                    "longsword":{"name":"Longsword" ,"cost":{ "gp":"15"} ,"dmgDice":"1d8" ,"dmgType":"slashing" ,"weight":3,"type":"martial" ,"properties":["Versatile","(1d10)"] },
+                    "maul":{"name":"Maul" ,"cost":{ "gp":"10"} ,"dmgDice":"2d6" ,"dmgType":"bludgeoning" ,"weight":10,"type":"martial" ,"properties":["Heavy","two-handed"] },
+                    "morningstar":{"name":"Morningstar" ,"cost":{ "gp":"15"} ,"dmgDice":"1d8" ,"dmgType":"piercing" ,"weight":4,"type":"martial" ,"properties":["—"] },
+                    "pike":{"name":"Pike" ,"cost":{ "gp":"5"} ,"dmgDice":"1d10" ,"dmgType":"piercing" ,"weight":18,"type":"martial" ,"properties":["Heavy","reach","two-handed"] },
+                    "rapier":{"name":"Rapier" ,"cost":{ "gp":"25"} ,"dmgDice":"1d8" ,"dmgType":"piercing" ,"weight":2,"type":"martial" ,"properties":["Finesse"] },
+                    "scimitar":{"name":"Scimitar" ,"cost":{ "gp":"25"} ,"dmgDice":"1d6" ,"dmgType":"slashing" ,"weight":3,"type":"martial" ,"properties":["Finesse","light"] },
+                    "shortsword":{"name":"Shortsword" ,"cost":{ "gp":"10"} ,"dmgDice":"1d6" ,"dmgType":"piercing" ,"weight":2,"type":"martial" ,"properties":["Finesse","light"] },
+                    "trident":{"name":"Trident" ,"cost":{ "gp":"5"} ,"dmgDice":"1d6" ,"dmgType":"piercing" ,"weight":4,"type":"martial" ,"properties":["Thrown","(range","20/60)","versatile","(1d8)"] },
+                    "warpick":{"name":"Warpick" ,"cost":{ "gp":"5"} ,"dmgDice":"1d8" ,"dmgType":"piercing" ,"weight":2,"type":"martial" ,"properties":["—"] },
+                    "warhammer":{"name":"Warhammer" ,"cost":{ "gp":"15"} ,"dmgDice":"1d8" ,"dmgType":"bludgeoning" ,"weight":2,"type":"martial" ,"properties":["Versatile","(1d10)"] },
+                    "whip":{"name":"Whip" ,"cost":{ "gp":"2"} ,"dmgDice":"1d4" ,"dmgType":"slashing" ,"weight":3,"type":"martial" ,"properties":["Finesse","reach"] }
+                },
+                "ranged":{
+                    "blowgun":{"name":"Blowgun" ,"cost":{ "gp":"10"} ,"dmgDice":"1" ,"dmgType":"piercing" ,"weight":1,"type":"martial" ,"properties":["Ammunition","(range","25/100)","loading"] },
+                    "handCrossbow":{"name":"Hand crossbow" ,"cost":{ "gp":"75"} ,"dmgDice":"1d6" ,"dmgType":"piercing" ,"weight":3,"type":"martial" ,"properties":["Ammunition","(range","30/120)","light","loading"] },
+                    "heavyCrossbow":{"name":"Heavy crossbow" ,"cost":{ "gp":"50"} ,"dmgDice":"1d10" ,"dmgType":"piercing" ,"weight":18,"type":"martial" ,"properties":["Ammunition","(range","100/400)","heavy","loading","two-handed"] },
+                    "longbow":{"name":"Longbow" ,"cost":{ "gp":"50"} ,"dmgDice":"1d8" ,"dmgType":"piercing" ,"weight":2,"type":"martial" ,"properties":["Ammunition","(range","150/600)","heavy","two-handed"] },
+                    "net":{"name":"Net" ,"cost":{ "gp":"1"} ,"dmgDice":"0d1" ,"dmgType":"none" ,"weight":3,"type":"martial" ,"properties":["Special","thrown","(range","5/15)"] }
+                }
+            }
+        },
+
+        "armour":{
+            "light":{
+                "padded":{"name":"Padded" ,"cost":{ "gp":"5"} ,"ac":"11" ,"mod":"Dex" ,"type":"light" ,"strength":"—" ,"stealth":"Disadvantage" ,"weight":"8"},
+                "leather":{"name":"Leather" ,"cost":{ "gp":"10"} ,"ac":"11" ,"mod":"Dex" ,"type":"light" ,"strength":"—" ,"stealth":"—" ,"weight":"10"},
+                "studdedLeather":{"name":"Studded leather" ,"cost":{ "gp":"45"} ,"ac":"12" ,"mod":"Dex" ,"type":"light" ,"strength":"—" ,"stealth":"—" ,"weight":"13"}
+            },
+            "medium":{
+                "hide":{"name":"Hide" ,"cost":{ "gp":"10"} ,"ac":"12" ,"mod":"Dex" ,"modMax":"2" ,"type":"medium" ,"strength":"—" ,"stealth":"—" ,"weight":"12"},
+                "chainShirt":{"name":"Chain shirt" ,"cost":{ "gp":"50"} ,"ac":"13" ,"mod":"Dex" ,"modMax":"2" ,"type":"medium" ,"strength":"—" ,"stealth":"—" ,"weight":"20"},
+                "scaleMail":{"name":"Scale mail" ,"cost":{ "gp":"50"} ,"ac":"14" ,"mod":"Dex" ,"modMax":"2" ,"type":"medium" ,"strength":"—" ,"stealth":"Disadvantage" ,"weight":"45"},
+                "breastplate":{"name":"Breastplate" ,"cost":{ "gp":"400"} ,"ac":"14" ,"mod":"Dex"  ,"modMax":"2" ,"type":"medium" ,"strength":"—" ,"stealth":"—" ,"weight":"20"},
+                "halfPlate":{"name":"Half plate" ,"cost":{ "gp":"750"} ,"ac":"15" ,"mod":"Dex" ,"modMax":"2" ,"type":"medium" ,"strength":"—" ,"stealth":"Disadvantage" ,"weight":"40"}
+            },
+            "heavy":{
+                "ringMail":{"name":"Ring mail" ,"cost":{ "gp":"30"} ,"ac":"14" , "type":"heavy" ,"strength":"Disadvantage" ,"stealth":"40" ,"weight":"lb."},
+                "chainMail":{"name":"Chain mail" ,"cost":{ "gp":"75"} ,"ac":"16" , "type":"heavy" ,"strength":"13" ,"stealth":"Disadvantage" ,"weight":"55"},
+                "splint":{"name":"Splint" ,"cost":{ "gp":"200"} ,"ac":"17" , "type":"heavy" ,"strength":"15" ,"stealth":"Disadvantage" ,"weight":"60"},
+                "plate":{"name":"Plate" ,"cost":{ "gp":"1500"} ,"ac":"18" , "type":"heavy" ,"strength":"15" ,"stealth":"Disadvantage" ,"weight":"65"}
+            },
+            "shield":{ "name":"Shield", "cost":{"gp":"10"}, "ac":"2", "weight":"6"}
+        }
+    }
+}
