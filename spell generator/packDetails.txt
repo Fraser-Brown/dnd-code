@@ -1,0 +1,7 @@
+'backpack' : {'name' : 'backpack', 'quantity' : 1},
+'bookoflore' : {'name' : 'bookoflore', 'quantity' : 1},
+'abottleofink' : {'name' : 'abottleofink', 'quantity' : 1},
+'aninkpen' : {'name' : 'aninkpen', 'quantity' : 1},
+'10sheetsofparchment' : {'name' : '10sheetsofparchment', 'quantity' : 1},
+'littlebagofsand' : {'name' : 'littlebagofsand', 'quantity' : 1},
+'andsmallknife' : {'name' : 'andsmallknife', 'quantity' : 1},

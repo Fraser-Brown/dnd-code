@@ -1,0 +1,1 @@
+'lightCrossbow' : {'name' : 'lightCrossbow' ,'cost' : { 'gp' : '25'} ,'dmgDice' : '1d8' ,'dmgType' : 'piercing' ,'weight' : 5,'type' : 'simple' ,'properties' : ['Ammunition','(range','80/320)','loading','two-handed',] },

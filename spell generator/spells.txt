@@ -1,0 +1,11 @@
+identify
+bless
+burningHands
+faerieFire
+animalFriendship
+speakWithAnimals
+fogCloud
+thunderWave
+charmPerson
+disguiseSelf
+divineFavour

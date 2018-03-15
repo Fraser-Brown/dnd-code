@@ -1,0 +1,1 @@
+lightCrossbow 25 gp 1d8 piercing 5 lb. Ammunition (range 80/320), loading, two-handed
